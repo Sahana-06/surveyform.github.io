@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Survey form</title>
+<link rel="stylesheet" type="text/css" href="new.css">
+</head>
+<body>
+ <div class="survey">
+  <h1 id="title">Net<span>Flix</span></h1>
+<p id="description">This is the survey form...thank you for visiting</p>
+
+
+<form id="survey-form">
+  <div class="form-inner">
+    <div class="space">
+  <label for="name" id="name-label">Name</label></br>
+<input type=text id="name" placeholder="enter the name" required/></br>
+  </div>
+
+<div class="space">
+<label for="email" id="email-label">Email</label></br>
+<input type="email" id="email" placeholder="enter an email" pattern="[A-Za-z]+[0-9]+[.]" required /></br>
+</div>
+ 
+<div class="space">
+<label for="number"id="number-label">Number</label></br>
+<input type="number" id="number" placeholder="enter the number" min="10" max="150"required/></br>
+</div>
+
+<div class="space">
+<label id="dropdown-label">Content Type</label></br>
+<select id="dropdown">
+  <option value=Avengers>Movie</option>
+  <option value=Strangerthings>Series</option>
+</select></br>
+</div>
+
+
+ <div class="space">
+  <form-group>
+  <label id="select-label">Movie Type</label></br>
+</div>
+
+  <div class="space-se">
+  <label for="first-radio">
+ <input type="radio" id="first-radio" name="Movie1" value="comedy">Comedy
+  </label></br>
+</div>
+
+<div class="space-se">
+  <label for="second-radio">
+  <input type="radio" id="second-radio" name="Movie1" value="action">Action
+  </label></br>
+</div>
+
+<div class="space-se">
+  <label for="third-radio">
+  <input type="radio" id="third-radio" name="Movie1" value="romance">Romance
+   </label>
+</div>
+</form-group></br>
+
+
+ <div class="space">
+  <form-group>
+<label id="select-label">Series Type</label></br>
+</div>
+
+ <div class="space-se">
+  <label>
+  <input type="checkbox" id="first-checkbox"  value="angel">Angel</br>
+  </label>
+</div>
+ <div class="space-se">
+  <label>
+  <input type="checkbox" id="second-checkbox"  value="bookstore">Bookstore</br>
+  </label>
+</div>
+
+ <div class="space-se">
+  <label>
+  <input type="checkbox" id="third-checkbox"  value="ridingjoy ">Riding Joy</br>
+  </label>
+</div>
+
+<div class="space">
+ <label id="feed-label">Feedback</label></br>
+</div>
+
+<div class="space-sect">
+<textarea id="textarea" placeholder="any-comment"></textarea></br>
+</div>
+
+</div>
+
+<input type="submit" id="submit"/>
+</div>
+</form> 
+</div>
+</body>
+</html>
+
+
